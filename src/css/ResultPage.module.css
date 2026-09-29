@@ -1,0 +1,180 @@
+.loadingContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  min-height: auto;
+}
+
+.loadingIcon {
+  width: 50%;
+  padding-top: 20%;
+}
+
+.resultContainer h1 {
+  display: block;
+  background-color: var(--color-main);
+  color: var(--color-base);
+  font-size: 20px;
+  padding: 15px 0;
+  margin: 0;
+  text-align: center;
+  border-bottom: solid var(--color-accent);
+}
+
+.commentBox {
+  background-color: #f9f9f9;
+  padding: 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+.commentTitle {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: var(--color-main);
+  margin: 0 0 10px 0;
+}
+
+.commentText {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
+  margin: 0;
+}
+
+.productList {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  margin-top: 20px;
+}
+
+.productCard {
+  display: flex;
+  align-items: center;
+  width: 80%;
+  height: auto;
+  padding: 10px;
+  gap: 16px;
+  background-color: var(--color-base);
+  border: 3px solid var(--color-main);
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.05);
+}
+
+.productImage {
+  width: 80px;
+  height: auto;
+  object-fit: cover;
+  border-radius: 8px;
+}
+
+.productInfo {
+  flex: 1;
+  text-align: left;
+}
+
+.productName {
+  margin: 0 0 14px 0;
+  font-size: 16px;
+  color: var(--color-main);
+  line-height: 1.4;
+}
+
+.productPrice {
+  margin: 0 0 12px 0;
+  font-size: 16px;
+  color: var(--color-main);
+  font-weight: bold;
+}
+
+.tagContainer {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 6px;
+}
+
+.tag {
+  background-color: var(--color-accent);
+  margin: 5px;
+  padding: 4px 10px;
+  color: var(--color-base);
+  font-size: 11px;
+  border-radius: 12px;
+}
+
+.comment {
+  color: var(--color-main);
+  font-weight: bold;
+}
+
+.clickHint {
+  display: block;
+  font-size: 12px;
+  color: var(--color-accent);
+  text-align: right;
+  margin-top: 10px;
+  cursor: pointer;
+}
+
+.modalOverlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.6);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  z-index: 1000;
+}
+
+.modalContent {
+  background-color: var(--color-base);
+  width: 90%;
+  max-width: 400px;
+  padding: 24px;
+  border-radius: 12px;
+  position: relative;
+  text-align: center;
+}
+
+.closeButton {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  background: none;
+  border: none;
+  font-size: 24px;
+  cursor: pointer;
+  color: #999;
+}
+
+.modalImage {
+  width: 80%;
+  max-width: 200px;
+  height: auto;
+  margin: 15px 0;
+}
+
+.modalComment {
+  font-size: 14px;
+  text-align: left;
+  line-height: 1.8;
+  margin-bottom: 20px;
+}
+
+.cartButton {
+  background-color: var(--color-accent);
+  color: var(--color-base);
+  border: none;
+  padding: 12px 24px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+}

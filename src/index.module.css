@@ -1,0 +1,21 @@
+:root {
+  --color-base:#fff;
+  --color-main:#1A4D2E;
+  --color-accent:#D4AF37;
+}
+
+body {
+  background-color: #f5f5f5;
+  color:#333333;
+  font-family: "Noto Sans JP",sans-serif;
+}
+
+.appContainer {
+  max-width: 600px;
+  margin: 0 auto;
+  background-color: var(--color-base);
+  min-height: 100vh;
+  box-shadow: 0 0 15px rgba(0, 0, 0, 0.05);
+  position: relative;
+  overflow-x: hidden;
+}
